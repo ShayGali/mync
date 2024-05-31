@@ -30,7 +30,7 @@ to use the socket we will send them after the flag, in this format:
 > NOTE: all datagram sockets (UDP and UDS datagram) will be wait for a dummy input from the client for accepting the connection, and then start the execution of the program.
 
 ## example usage:
-in all of the examples below, when we use the -e flag, we will execute the command a tik tak toe game, that we implemented in the [q1](./q1/ttt.c) folder.
+in all of the examples below, when we use the -e flag, we will execute the command a tik tak toe game, that we implemented in the [here](./ttt.c)
 
 we simulate a server & client with `nc` command,and for the unix domain socket datagram we use `socat` command.
 
@@ -115,6 +115,6 @@ socat - UNIX-SENDTO:hoi2.socket
 ## code coverage
 we checked the code coverage of the code using gcov. most of the code is covered, except errors that are related to the socket library.
 
-[link to the code coverage report](./q6/code%20coverage/mynetcat.c.gcov)
+[link to the code coverage report](./code%20coverage/mynetcat.c.gcov)
 
-![code coverage](./q6/code%20coverage/code_coverage.png)
+![code coverage](./code%20coverage/code_coverage.png)
