@@ -1,6 +1,6 @@
-# Assignment 2 - netcat implementation
+# netcat implementation
 
-in this assignment we will implement basic implementation of netcat.
+in this project we will implement basic implementation of netcat.
 
 we will support the following features:
 1. -e flag: execute a shell command
